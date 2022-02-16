@@ -16,6 +16,8 @@
 		D3E6AAED27ACE48800B71FAF /* UIElelmentsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E6AAEC27ACE48800B71FAF /* UIElelmentsDemoTests.swift */; };
 		D3E6AAF727ACE48800B71FAF /* UIElelmentsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E6AAF627ACE48800B71FAF /* UIElelmentsDemoUITests.swift */; };
 		D3E6AAF927ACE48800B71FAF /* UIElelmentsDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E6AAF827ACE48800B71FAF /* UIElelmentsDemoUITestsLaunchTests.swift */; };
+		D3E6AB0627ACEC3700B71FAF /* PickerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E6AB0527ACEC3700B71FAF /* PickerVc.swift */; };
+		D3E6AB0827AD061C00B71FAF /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E6AB0727AD061C00B71FAF /* DatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D3E6AAF227ACE48800B71FAF /* UIElelmentsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIElelmentsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E6AAF627ACE48800B71FAF /* UIElelmentsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElelmentsDemoUITests.swift; sourceTree = "<group>"; };
 		D3E6AAF827ACE48800B71FAF /* UIElelmentsDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElelmentsDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3E6AB0527ACEC3700B71FAF /* PickerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVc.swift; sourceTree = "<group>"; };
+		D3E6AB0727AD061C00B71FAF /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D3E6AADE27ACE48800B71FAF /* Assets.xcassets */,
 				D3E6AAE027ACE48800B71FAF /* LaunchScreen.storyboard */,
 				D3E6AAE327ACE48800B71FAF /* Info.plist */,
+				D3E6AB0527ACEC3700B71FAF /* PickerVc.swift */,
+				D3E6AB0727AD061C00B71FAF /* DatePicker.swift */,
 			);
 			path = UIElelmentsDemo;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E6AB0627ACEC3700B71FAF /* PickerVc.swift in Sources */,
 				D3E6AADA27ACE48700B71FAF /* ViewController.swift in Sources */,
 				D3E6AAD627ACE48700B71FAF /* AppDelegate.swift in Sources */,
 				D3E6AAD827ACE48700B71FAF /* SceneDelegate.swift in Sources */,
+				D3E6AB0827AD061C00B71FAF /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
